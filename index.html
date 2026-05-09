@@ -6,26 +6,39 @@
 
 <title>Oameni pentru Oameni - Aiud</title>
 
-<link href="style.css" rel="stylesheet">
-
+<link rel="stylesheet" href="style.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
 <body>
 
+<!-- NAV -->
+<nav class="nav">
+  <h2>Oameni pentru Oameni - Aiud</h2>
+</nav>
+
 <!-- HERO -->
 <header class="hero">
-  <h1>Oameni pentru Oameni - Aiud</h1>
-  <p>Împreună construim binele</p>
+  <h1>Împreună pentru viață</h1>
+  <p>Sprijinim pacienții oncologici din Aiud</p>
 
   <button onclick="donate(50)">Donează 50 RON</button>
+  <button onclick="donate(100)">Donează 100 RON</button>
 </header>
 
 <!-- IMPACT -->
 <section class="container">
-  <h2>Impact în timp real</h2>
-  <div id="impact"></div>
+  <h2>Impact live</h2>
+  <div id="impact">Se încarcă...</div>
+</section>
+
+<!-- PROIECT -->
+<section class="container">
+  <h2>Proiect principal</h2>
+  <p>
+    Înființarea secției de oncologie cu spitalizare de zi în Aiud.
+  </p>
 </section>
 
 <!-- CONTACT -->
@@ -36,12 +49,17 @@
 
   <p>Facebook: 
     <a href="https://www.facebook.com/profile.php?id=61578922468308">
-      Pagina ONG
+      Pagina oficială
     </a>
   </p>
 
 </section>
 
+<footer>
+  © 2026 Oameni pentru Oameni - Aiud
+</footer>
+
+<script src="config.js"></script>
 <script src="app.js"></script>
 
 </body>
